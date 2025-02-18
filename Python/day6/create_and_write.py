@@ -1,0 +1,5 @@
+writing=open("Python\day6\sample1.txt",'a+')
+writing.write('I am Hapyy.\n')
+writing.write('Be Happy')
+content=writing.read()
+print(content)
